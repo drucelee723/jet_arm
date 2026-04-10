@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+Log/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ROS 2
+install/
+build/
+log/
+*.pyc
+
+# Claude
+.claude/projects/
+
+# Model files (large binaries)
+*.caffemodel
+*.prototxt
+*.onnx
+*.pth
+*.pt
+*.dat

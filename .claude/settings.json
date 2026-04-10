@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m pip install --upgrade pip --user)",
+      "Read(//usr/bin/**)",
+      "Read(//Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/bin/**)",
+      "Bash(brew list:*)",
+      "Bash(grep -v \"^$\")",
+      "Bash(python3 -m py_compile app/app/common.py)",
+      "Bash(python3 -m py_compile app/app/lab_manager.py)",
+      "Bash(python3 -m py_compile app/app/calibration.py)"
+    ]
+  }
+}
